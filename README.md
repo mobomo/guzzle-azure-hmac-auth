@@ -1,6 +1,6 @@
 # Usage
 
-```
+```php
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
