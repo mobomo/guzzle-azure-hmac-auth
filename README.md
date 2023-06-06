@@ -4,7 +4,7 @@
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
-use stevenlafl\AzureHmacAuth\AzureHMACMiddleware;
+use Mobomo\AzureHmacAuth\AzureHMACMiddleware;
 
 $azureHMACMiddleware = new AzureHMACMiddleware('<secret key>');
 
